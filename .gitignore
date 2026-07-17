@@ -1,6 +1,8 @@
 # Data mentah & hasil crawl — jangan masuk git, terlalu besar
+data/
 data/bronze/**/*.html
 data/bronze/**/*.bin
+data/bronze/**/*.json
 data/silver/**/*.parquet
 data/silver/**/*.json
 data/gold/**/*.parquet
@@ -17,3 +19,4 @@ venv/
 .ipynb_checkpoints/
 
 .dev-notes/
+.claude/
