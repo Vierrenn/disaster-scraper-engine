@@ -1,0 +1,19 @@
+# Data mentah & hasil crawl — jangan masuk git, terlalu besar
+data/bronze/**/*.html
+data/bronze/**/*.bin
+data/silver/**/*.parquet
+data/silver/**/*.json
+data/gold/**/*.parquet
+data/gold/**/*.json
+data/quarantine/**/*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+.dev-notes/
