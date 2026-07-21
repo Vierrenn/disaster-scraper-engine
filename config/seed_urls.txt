@@ -1,0 +1,40 @@
+# Daftar URL manual - pengganti sementara untuk Discovery (belum dibangun).
+# Satu URL per baris. Baris kosong dan baris berawalan # diabaikan.
+# Begitu Discovery ada, file ini digantikan oleh hasil discover(keyword)
+# otomatis - format konsumennya (daftar URL) tetap sama.
+
+# --- Antara (2 di antaranya sudah pernah di-fetch sebelumnya - uji cache-hit manifest) ---
+https://www.antaranews.com/berita/5654113/lintas-kampus-gelar-pengabdian-pemulihan-pascabencana-di-bener-meriah
+https://www.antaranews.com/berita/5654401/ancaman-megathrust-bmkg-gelar-sekolah-gempa-dan-tsunami-di-pacitan
+https://www.antaranews.com/berita/5657669/iran-pasukan-siap-sambut-jika-as-invasi-pulau-kharg
+https://www.antaranews.com/berita/5657665/arthatel-hadirkan-layanan-tik-pendukung-transformasi-digital
+https://www.antaranews.com/berita/5657661/mesir-temukan-3-makam-pahatan-batu-kuno-berusia-3000-tahun
+https://www.antaranews.com/berita/5657657/dpr-ingatkan-kewajiban-evaluasi-besaran-ganti-rugi-delay-penerbangan
+https://www.antaranews.com/berita/5657655/lepas-dari-kandang-burung-unta-berkeliaran-bebas-di-jalanan-bandung
+https://www.antaranews.com/berita/5657651/film-pramuka-hadirkan-petualangan-sarat-nilai-karakter-generasi-muda
+https://www.antaranews.com/berita/5657649/sudan-tolak-sanksi-baru-as-menyebutnya-sepihak-dan-ilegal
+https://www.antaranews.com/berita/5657645/prabowo-ekonomi-indonesia-tetap-kuat-di-tengah-tantangan-global
+https://www.antaranews.com/berita/5657641/polisi-kawal-aksi-unjuk-rasa-aktivis-di-kantor-hotman-paris-di-jakut
+https://www.antaranews.com/berita/5657637/kpk-ingatkan-pemangku-kepentingan-terkait-pengadaan-kipas-angin-kopdes
+https://www.antaranews.com/berita/5657635/sri-lanka-inspeksi-kendaraan-transportasi-umum-mulai-september-2026
+https://www.antaranews.com/berita/5657632/presiden-tingkatkan-kesejahteraan-hakim-gaji-naik-sampai-280-persen
+https://www.antaranews.com/berita/5657628/kebakaran-dapur-restoran-di-menteng-dipicu-dari-bara-alat-pemanggang
+https://www.antaranews.com/berita/5656356/veda-ega-dan-mario-sowan-sri-sultan-hb-x-di-keraton-yogyakarta
+https://www.antaranews.com/berita/5656373/mentan-tegaskan-siap-percepat-peremajaan-tebu-demi-swasembada-gula
+https://www.antaranews.com/berita/5656312/kai-pastikan-perjalanan-kereta-tetap-aman-setelah-gempa-magnitudo-49
+https://www.antaranews.com/berita/5657412/publik-diminta-tak-terpengaruh-narasi-hubungkan-febrie-dengan-prabowo
+
+# --- Kompas (portal berbeda, belum ada parser - fetch tetap harus jalan karena generik) ---
+https://lestari.kompas.com/read/2026/07/15/102800086/-ecomystic-dan-konstitusi-lingkungan-kurang-berdaya
+https://regional.kompas.com/read/2026/07/07/113834678/jalur-distribusi-bbm-rawan-terdampak-bencana-sumbar-butuh-terminal-terpadu
+https://lestari.kompas.com/read/2026/06/19/144601486/pbb-peringatkan-13-wilayah-dunia-terancam-kelaparan-yang-lebih-parah
+https://lestari.kompas.com/read/2026/06/15/113345686/bnpb-catat-banjir-angin-kencang-dan-karhutla-landa-sejumlah-wilayah
+https://nasional.kompas.com/read/2026/06/09/23171171/peran-penyandang-disabilitas-dalam-penanganan-bencana-di-ntb
+https://lestari.kompas.com/read/2026/06/02/154818086/kebakaran-hutan-sepanjang-2025-telan-biaya-termahal-dalam-sejarah
+https://regional.kompas.com/read/2026/05/26/175458678/titik-kritis-bentang-alam-sumatera-5-juta-warga-miskin-terdampak-krisis
+https://regional.kompas.com/read/2026/05/23/211453978/tanggul-sungai-widodaren-jebol-rumah-di-pati-terendam-banjir-hingga-50
+https://regional.kompas.com/read/2026/05/18/160155778/longsor-kalialang-lama-semarang-meluas-hingga-50-meter-akses-jalan-warga
+
+# --- Sengaja rusak - uji error handling (jangan sampai bikin script crash) ---
+https://domain-yang-tidak-ada-untuk-testing-12345.com/artikel
+https://www.antaranews.com/berita/0/artikel-tidak-ada-404

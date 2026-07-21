@@ -1,8 +1,5 @@
-"""Parser khusus Antara: HTML mentah -> field terstruktur.
-
-Portal-specific (beda dari src/fetch.py yang generik) karena struktur
-JSON-LD dan selector CSS di sini cuma berlaku untuk antaranews.com.
-Input selalu HTML yang dibaca dari file Bronze, bukan hasil fetch langsung.
+"""
+Parser khusus Antara: HTML mentah -> field terstruktur.
 """
 
 import json
@@ -14,11 +11,6 @@ TITLE_SELECTOR = ".wrap__article-detail-title"
 
 
 def _find_news_article_jsonld(soup: BeautifulSoup) -> dict:
-    """Cari blok <script type="application/ld+json"> bertipe NewsArticle.
-
-    Satu halaman Antara punya beberapa blok JSON-LD (WebSite, Organization,
-    BreadcrumbList, dst) - kita cuma perlu yang NewsArticle.
-    """
     for script in soup.find_all("script", type="application/ld+json"):
         try:
             data = json.loads(script.string or "")
